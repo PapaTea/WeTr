@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WeTr</title>
+</head>
+<style>
+  body {
+    background-image: url('img/pogoda-fon-4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style
+<body>
+  <div class="app" id="app">
+    <div class="app_container">
+      <div class="app_container_top"><!-- Поиск -->
+        <form class="location_form" id="location_form">
+          <input type="text" class="location_form_input" id = "location_form_input" placeholder="Location" required >
+          <button class="location_form_btn" id="location_form_btn">
+            <svg class="location_form_icon" width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19.5138" y="18.5495" width="8" height="2" transform="rotate(45 19.5138 18.5495)" fill="#333333"/>
+              <circle cx="11.5" cy="11.5" r="10.5" stroke="#333333" stroke-width="2"/> </svg>
+          </button>
+        </form>
+      </div>
+      <div class="app_container_bottom" id="cards_box"><!-- Города -->  </div>
+    </div>
+  </div>
+  <script src="js/main.js"> </script>
+</body>
+</html>
